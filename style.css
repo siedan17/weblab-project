@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital@1&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:wght@200&display=swap');
+
+nav {background-color: var(--pink);
+    margin: 0px;
+    border-radius: 30px;
+    }
+
+
+
+img {border-radius: 50%;
+    }
+.center {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+      }
+
+.large {
+        flex-basis: 1000px;
+}
+
+.small {
+        flex-basis: 200px;
+}
+
+.groow {
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 0;
+    text-align: center;
+    border: 1px solid black;
+}
+
+.grow {
+        flex-grow: 1;
+}
+
+.flex {
+        display: flex;
+        flex-direction: row;
+        border: 1px solid black;
+        }
+
+:root {
+    --primary: rgb(15, 167, 15);
+    --blue: rgb(1, 100, 10);
+    --white: #fff;
+    --pink: #16be24;
+    }
+
+body {
+    margin: 0px;
+    }
+
+.trial {color: black;
+        background-color: chocolate;
+        margin: 20px;
+        border: 5px solid black;
+        padding: 20px;
+        border-radius: 30px;
+
+    }
+
+.say_Hello {color: var(--blue);
+    font-size: 26pt;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+
+
+.info {color: blue;
+        font-size: 12pt;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+.neue_Schriftart {color: green;
+                    text-align: center;
+                    font-size: xx-large;
+                    font-family: 'IBM Plex Serif', serif;
+    }
+.central {color: black;
+        text-align: center;
+        font-size: x-large;
+        font-family: 'Roboto', sans-serif;
+    }
+.u-central {
+        text-align: center;
+        font-size: xx-large;
+        font-family: 'Roboto', sans-serif;
+    }
